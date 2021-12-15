@@ -1,7 +1,7 @@
 let movies = [
     {
-        name: 'El sargento Gutierrez',
-        des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!',
+        name: 'loki',
+        des: 'Hola, soy Julian Campolongo, y estoy creando una clonacion de la pagina web de Disney+, estoy estudiando desarrollo web y estoy en busqueda de mi primer empleo como desarrollador, si te gusta lo que estoy haciendo con una reaccion a esta publicacion me ayudas muchisimo !',
         image: 'img/slider 1.PNG'
     },
     {
