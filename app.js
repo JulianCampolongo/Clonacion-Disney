@@ -6,9 +6,12 @@ let slideIndex = 0;
 
 
 const createSlide = () => {
-    if(slideIndex >= movies.lenght){
+  
+  
+    if(slideIndex >= movies.length ){
         slideIndex = 0
     }
+  
 
     //creando DOM element
 
@@ -22,6 +25,7 @@ const createSlide = () => {
 
 imgElement.appendChild(document.createTextNode(''))
 h1.appendChild(document.createTextNode(movies[slideIndex].name))
+
 p.appendChild(document.createTextNode(movies[slideIndex].des))
 content.appendChild(h1)
 content.appendChild(p)
@@ -29,9 +33,12 @@ slide.appendChild(content)
 slide.appendChild(imgElement)
 carousel.appendChild(slide)
 
+
+
 //preparando imagenes
 imgElement.src = movies[slideIndex].image
-slideIndex ++;
+slideIndex++;
+
 
 //preparando clases
 slide.className = "slider"
@@ -41,17 +48,63 @@ p.className = "movie-des"
 
 sliders.push(slide)
 
-//adding sliding effetc
+//adding sliding effect
 
 if(sliders.length){
-  sliders[0].style.marginLeft = `calc(-${100 * (sliders.lenght -2)}% - ${30 * 
-    (sliders.length - 2)}px)`
-
-}}
-
-for(let i = 0; i < 3; i++){
-    createSlide()
+  sliders[0].style.marginLeft = `calc(-${100 * (sliders.length - 2)}% - ${30 * (sliders.length - 2)}px)`
+  
 }
+
+
+
+ 
+
+
+} 
+
+for(let i = 0; i<3; i++){
+  createSlide()
+}
+
+setInterval(()=>{
+  createSlide()
+}, 3000)
+
+///video cards
+
+const videoCards = document.querySelectorAll(".video-card")
+
+videoCards.forEach(item => {
+  item.addEventListener("mouseover", ()=>{
+    let video = item.children[1]
+    video.play()
+  })
+  item.addEventListener("mouseleave", ()=>{
+    let video = item.children[1]
+    video.pause()
+  })
+})
+
+//card sliders
+
+let cardContainers = document.querySelectorAll(".card-container")
+let preBtns = document.querySelectorAll(".pre-btn")
+let nxtBtns = document.querySelectorAll(".nxt-btn")
+
+cardContainers.forEach((item, i)=>{
+  let containerDimensions = item.getBoundingClientRect()
+  let containerWidht = containerDimensions.width 
+})
+
+nxtBtns[i].addEventListener("click", ()=>{
+  item.scrollLeft += containerWidth - 200
+})
+
+preBtns[i].addEventListener("click", ()=>{
+  item.scrollLeft -= containerWidth + 200
+})
+
+
 
 
 

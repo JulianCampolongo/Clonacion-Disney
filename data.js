@@ -1,27 +1,27 @@
 let movies = [
     {
-        name: 'Hola gente linda de Linkedin',
-        des: ' Soy Julian Campolongo, y estoy creando una clonacion de la pagina web de Disney+, estoy estudiando desarrollo web y estoy en busqueda de mi primer empleo como desarrollador, si te gusta lo que estoy haciendo con una reaccion a esta publicacion me ayudas muchisimo !',
-        image: 'img/slider 5.PNG'
+        name: 'OKUPAS (Segunda temporada)',
+        des: ' Soy Julian Campolongo y estoy realizando una clonacion del sitio web de Disney+, me encuentro estudiando desarrollo web y estoy en busqueda de mi primer empleo como desarrollador, si te gusto un poquito al menos lo que estoy haciendo con una reaccion a esta publicacion me ayudas muchisimo !  :)',
+        image: 'img/okupass.jpg'
     },
     {
-        name: 'loki',
-        des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!',
-        image: 'img/slider 1.PNG'
+        name: 'LOS SIMULADORES (La pelicula)',
+        des: 'Soy Julian Campolongo y estoy realizando una clonacion del sitio web de Disney+, me encuentro estudiando desarrollo web y estoy en busqueda de mi primer empleo como desarrollador, si te gusto un poquito al menos lo que estoy haciendo con una reaccion a esta publicacion me ayudas muchisimo !  :)',
+        image: 'img/simuladores.jpg'
     },
     {
-        name: 'wanda vision',
-        des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!',
-        image: 'img/slider 3.PNG'
+        name: 'NUEVE REINAS',
+        des: 'Soy Julian Campolongo y estoy realizando una clonacion del sitio web de Disney+, me encuentro estudiando desarrollo web y estoy en busqueda de mi primer empleo como desarrollador, si te gusto un poquito al menos lo que estoy haciendo con una reaccion a esta publicacion me ayudas muchisimo !  :)',
+        image: 'img/nueve-reinas.jpg'
     },
     {
-        name: 'raya and the last dragon',
-        des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!',
-        image: 'img/slider 4.PNG'
+        name: 'NARUTO LIVE ACTION',
+        des: 'Soy Julian Campolongo y estoy realizando una clonacion del sitio web de Disney+, me encuentro estudiando desarrollo web y estoy en busqueda de mi primer empleo como desarrollador, si te gusto un poquito al menos lo que estoy haciendo con una reaccion a esta publicacion me ayudas muchisimo !  :)',
+        image: 'img/naruto.jpg'
     },
     {
-        name: 'luca',
-        des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!',
-        image: 'img/slider 5.PNG'
+        name: 'ATLANTIS',
+        des: 'Soy Julian Campolongo y estoy realizando una clonacion del sitio web de Disney+, me encuentro estudiando desarrollo web y estoy en busqueda de mi primer empleo como desarrollador, si te gusto un poquito al menos lo que estoy haciendo con una reaccion a esta publicacion me ayudas muchisimo !  :)',
+        image: 'img/atlantis.jpg'
     }
 ]
