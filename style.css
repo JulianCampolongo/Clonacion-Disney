@@ -7,7 +7,7 @@
 
 body{
     width: 100%;
-    background: #0c111b;
+    background: #2b3d61;
     position: relative;
     font-family:  sans-serif;
 }
@@ -19,7 +19,7 @@ body{
     top: 0;
     left: 0;
     padding: 0 4%;
-    background: #0c111b;
+    background: #292929;
     z-index: 9;
     display: flex;
     align-items: center;
@@ -27,7 +27,9 @@ body{
 }
 
 .brand-logo{
-    height: 70px;
+    height: 80px;
+    margin-top: -5px;
+    margin-left: 10px;
 }
 
 .nav-links{
@@ -40,7 +42,7 @@ body{
     text-decoration: none;
     margin-left: 20px;
     text-transform: capitalize;
-    color: #fff;
+    color: rgb(189, 186, 188);
     opacity: 0.9;
 }
 
@@ -87,7 +89,7 @@ body{
   }
 
    .login-link{
-       color: #fff;
+    color: rgb(173, 167, 167);
        opacity: 0.9;
        text-transform: uppercase;
        font-size: 15px;
@@ -99,7 +101,7 @@ body{
    .carousel-container{
        position: relative;
        width: 100%;
-       height: 450px;
+       height: 400px;
        padding: 20px 0;
        overflow-x: hidden;
        margin-top: 80px;
@@ -114,6 +116,7 @@ body{
        position: relative;
        margin: auto;
        background: #000;
+       border-radius: 5px;
        
    }
 
@@ -121,7 +124,7 @@ body{
        flex: 0 0 auto;
        margin-right: 30px;
        position: relative;
-       background: rgba(22, 21, 21, 0.5);
+       background: rgba(148, 144, 144, 0.5);
        border-radius: 5px;
        width: 100%;
        height: 100%;
@@ -133,7 +136,7 @@ body{
 
    .slider img{
        width: 60%;
-       min-height: 100%;
+       height: 100%;
        object-fit: cover ;
        display: block;
        margin-left: auto;
@@ -147,8 +150,8 @@ body{
        width: 50%;
        height: 100%;
        z-index: 2;
-       background: linear-gradient(to right, #030b17 80%, #0c111b00);
-       color: #fff;
+       background: linear-gradient(to right, #272626 80%, #fafafa00);
+       color: rgb(240, 240, 240);
    }
 
    .movie-title{
@@ -196,12 +199,15 @@ body{
     .card-video{
         position: absolute;
         
+        
     }
 
      
 
     .video-card:hover .video-card-image{
         display: none;}
+
+        
 
 
     .title{
@@ -271,7 +277,7 @@ body{
          top: 0;
          left: 0;
          z-index: 2;
-         background: linear-gradient(to bottom, rgba(4, 8, 15, 0), #192133 90%);
+         background: linear-gradient(to bottom, rgba(4, 8, 15, 0), #7e7777 90%);
          padding: 10px;
          transition: 0.5s;
         }
@@ -357,6 +363,50 @@ body{
 .nxt-btn:hover img{
     opacity: 1;
 }
+
+.video-body{
+    opacity: 0;
+         width: 100%;
+         height: 100%;
+         position: absolute;
+         top: 0;
+         left: 0;
+         z-index: 2;
+         background: linear-gradient(to bottom, rgba(4, 8, 15, 0), #7e7777 90%);
+         padding: 10px;
+         transition: 0.5s;
+}
+
+.video-body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -5px;
+    height: 35px;
+    width: 35px;
+    background-image: url(/img/add.png);
+    background-size: cover;
+    transform: scale(0.4);
+}
+
+.title2{
+    color: #fff;
+    opacity: 0.9;
+    padding-left: 4%;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+}    
+
+.title3{
+    color: #fff;
+    opacity: 0.9;
+    padding-left: 4%;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 14.5%;
+}    
 
 
 

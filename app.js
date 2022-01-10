@@ -68,7 +68,7 @@ for(let i = 0; i<3; i++){
 
 setInterval(()=>{
   createSlide()
-}, 3000)
+}, 4000)
 
 ///video cards
 
